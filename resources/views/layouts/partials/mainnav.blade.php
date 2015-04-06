@@ -1,0 +1,2 @@
+<div align="center"><a href="/" class="btn btn-warning">HOME</a>  <a href="/stories/" class="btn btn-warning">STORIES</a>  <a href="#" class="btn btn-warning">CAPTIONS</a>  <a href="/stories/create"  class="btn btn-warning">CREATE STORIES</a>  <a href="/auth/logout"  class="btn btn-warning">LOG OUT</a>  </div>
+	
