@@ -15,12 +15,12 @@ class CreateStoriesTable extends Migration {
 		Schema::create('stories', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('title')->unsigned();
+			$table->string('title');
 			$table->string('thumbnail');
 			$table->text('story');
 			$table->softDeletes();
 			$table->timestamps();
-			
+
 			$table->foreign('user_id')
 				->references('id')
 				->on('users')

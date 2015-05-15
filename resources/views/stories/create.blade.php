@@ -20,8 +20,6 @@ array('required', 'class'=>'form-control',
 </div>
 
 
-
-
 <div class="form-group">
 {!! Form::label('thumbnail', 'Picture') !!}
 {!! Form::file('thumbnail') !!}
